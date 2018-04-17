@@ -1,0 +1,29 @@
+{
+  "name": "swoler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "swoler": "babel-node index.js",
+    "swoler-debug": "babel-node index.js --inspect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoreidel/swoler.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Diego Reidel",
+    "email": "diegoreidel@gmail.com",
+    "url": "https://github.com/diegoreidel"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegoreidel/swoler/issues"
+  },
+  "homepage": "https://github.com/diegoreidel/swoler#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
